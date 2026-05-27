@@ -6,11 +6,6 @@ namespace FluxoCaixa_Api.Controllers
     [Route("[controller]")]
     public class UserController : ControllerBase
     {
-        private static readonly string[] Summaries = new[]
-        {
-            "Usuario 1", "Usuario 2", "Chilly", "Cool", "Mild", "Warm"
-        };
-
         private readonly ILogger<UserController> _logger;
 
         public UserController(ILogger<UserController> logger)

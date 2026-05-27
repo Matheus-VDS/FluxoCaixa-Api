@@ -1,5 +1,5 @@
 ﻿namespace FluxoCaixa_Api
-{   // entidade user
+{ 
     public class User
     {
         public int Id { get; set; }
